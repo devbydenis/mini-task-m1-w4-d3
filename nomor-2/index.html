@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <main class="form-container">
+            <form id="myForm">
+                <div class="input-wrapper">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" id="nama" placeholder="Nama Lengkap" required />
+                </div>
+                <div class="input-wrapper">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" id="email" placeholder="Alamat Email" required />
+                </div>
+                <div class="input-wrapper">
+                    <label for="job">Pekerjaan:</label>
+                    <input id="job" type="text" id="pekerjaan" placeholder="Pekerjaan" required />
+                </div>
+                <div class="input-wrapper">
+                    <label for="phone">Phone:</label>
+                    <input id="phone" type="tel" id="telepon" placeholder="Nomor Telepon" required />
+                </div>
+                <button type="button" id="submitButton">Kirim Data</button>
+            </form>
+            <section id="result"></section>
+        </main>
+    </body>
+    <script src="./main.js"></script>
+</html>
